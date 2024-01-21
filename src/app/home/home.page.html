@@ -1,23 +1,23 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Sushant Kunkekar
-      <h6>Frontend Developer</h6>
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-<ion-chip color="primary">Angular</ion-chip>
-<ion-chip color="secondary">JavaScript</ion-chip>
-<ion-chip color="tertiary">TypeScript</ion-chip>
-<ion-chip color="success">HTML</ion-chip>
-<ion-chip color="warning">CSS</ion-chip>
-<ion-chip color="danger">Bootstrap</ion-chip>
-<ion-chip color="dark">Tailwind</ion-chip>
-<ion-chip color="success">Angular Material</ion-chip>
-<ion-chip color="dark">.NET Core</ion-chip>
-<ion-chip color="warning">Azure</ion-chip>
+<ion-content [fullscreen]="true"  class="no-scroll">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Sushant Kunkekar</ion-card-title>
+      <ion-card-subtitle>Front End Developer, Web Enthusiast,Sincere, Hardworking, Writer, Runner</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+<ion-card style="padding:1%;">
+  <ion-chip color="primary">Angular</ion-chip>
+  <ion-chip color="secondary">JavaScript</ion-chip>
+  <ion-chip color="tertiary">TypeScript</ion-chip>
+  <ion-chip color="success">HTML</ion-chip>
+  <ion-chip color="warning">CSS</ion-chip>
+  <ion-chip color="danger">Bootstrap</ion-chip>
+  <ion-chip color="dark">Tailwind</ion-chip>
+  <ion-chip color="success">Angular Material</ion-chip>
+  <ion-chip color="dark">.NET Core</ion-chip>
+  <ion-chip color="warning">Azure</ion-chip>
+</ion-card>
   <ion-card>
     <ion-card-header>
       <ion-card-title>Experience</ion-card-title>
@@ -33,4 +33,66 @@
       <b>Tools</b>-Azure Devops, ServiceNow, Azure Portal, Docker, Visual studio code, Visual studio, Jenkins, Burp suite, Veracode, JIRA, Redmine, Figma<br>
     </ion-card-content>
   </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Application Development Senior Analyst [Apr 21 – Till now] ***2 years 9+ months</ion-card-title>
+      <ion-card-subtitle>Accenture India (ATCI)</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Dana MES:
+      Working with absolute lean team for world’s leading manufacturer, for tracking the Shopfloor and Quality dashboards along with maintaining and support for all global plants.
+      Responsibilities: 
+      ○	Adding new plants to Shopfloor board and different module addition as per business requirement 
+      ○	Developing UI and data visualization dashboards Shopfloor and Quality boards
+      ○	Analyzing the customers requirement, code, deliver and deployment
+      ○	Code migration and library updates, creating new charts from taking Ignition module backups
+      ○	Handling Android boxes in live plants and handing issues related to code installation, remote access and Kiosk Browsers 
+      ○	Training and grooming new joiners and freshers for Angular at project and delivery unit level
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>UI Developer [Mar 20 – Apr 21] ***1 year 1 month</ion-card-title>
+      <ion-card-subtitle>Digitate: Ignio AI Digital Workspace</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Multiple Clients:
+      Self -healing employee experience management for digital workspaces, benefits from enhanced visibility, automated remediation and asset cost optimization.
+      Responsibilities: 
+      ○	Developing UI and data visualization dashboards for AI based end user computing product
+      ○	Analyzing the customers requirements and product enhancements
+      ○	Deployment of product on different customers environment
+      ○	Tech stack- JavaScript, Angular 8, high charts, Node, webpack, Bootstrap4, Jenkins, Tortoise SVN
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Full stack developer [Mar 19 – Mar 20] ***1 year </ion-card-title>
+      <ion-card-subtitle>Digitate: Ignio AIOps - Butterfly version </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Multiple Clients:
+      Ignio AIOps to automate blueprinting of complex IT landscapes, connecting applications, platforms & infrastructure to improve visibility and transparency. It combined with AI based behavior profiling, this helps identify IT trends, patterns and outliers
+      Responsibilities: 
+      ○	Analyzing the customers’ requirements and product enhancements
+      ○	Deployment of product on different customers environments
+      ○	Bug fixing, code optimization and product security improvements, SAST& DAST testing      
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Embedded systems developer (UI) [Feb 17 – Mar 19] ***2 years 1 month</ion-card-title>
+      <ion-card-subtitle>TCS  Feb 2017 - Mar 2019 </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Indian Navy
+      Indigo Systems, developed embedded system for Navy with coordination with third party for electronic parts and its assembly and integration, provided onsite installation 
+      Responsibilities: 
+      ○	Indigo control systems, a Hard Real Time Embedded Systems that aims at developing systems for Motion Movement, Depth Monitoring, Electrical Systems, General Purpose and Central Co-ordination for defense
+      ○	Development of central dashboard in Tilcon interface, collaboration of development testing, kernel configurations for different ports of VxWork           
+    </ion-card-content>
+  </ion-card>
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 </ion-content>
